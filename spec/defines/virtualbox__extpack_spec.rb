@@ -14,7 +14,7 @@ describe 'virtualbox::extpack' do
         {
           ensure: 'present',
           source: 'http://server.example.com/extpack.vbox-extpack',
-          checksum_string: 'd41d8cd98f00b204e9800998ecf8427e'
+          checksum_string: 'd41d8cd98f00b204e9800998ecf8427e',
         }
       end
 
