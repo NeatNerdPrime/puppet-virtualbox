@@ -35,7 +35,7 @@ describe 'virtualbox', type: :class do
         let(:params) do
           {
             'package_name' => 'virtualbox-custom-package-name',
-            'version' => '4.2'
+            'version' => '4.2',
           }
         end
 
